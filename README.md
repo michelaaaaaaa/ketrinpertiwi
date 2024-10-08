@@ -1,10 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
     int komputer, pemain;
-    char mainLagi;
+    char playAgain;
 
     do {
         // Menghasilkan pilihan acak untuk komputer
@@ -37,8 +36,8 @@ int main() {
         }
 
         // Menanyakan apakah pemain ingin bermain lagi atau tidak
-        cout << "Apakah Anda ingin bermain lagi? (y/n): ";
-        cin >> mainLagi;
+        cout << "play again? (y/n): ";
+        cin >> playAgain;
 
     } while (mainLagi == 'y' || mainLagi == 'Y');
 
